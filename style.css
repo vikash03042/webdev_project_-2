@@ -38,9 +38,9 @@ html{
     margin: 10px 34px;
 }
 .logo img {
-    height: 70px;
-    width: 70px;
-    margin:10px;
+    height: 50px;
+    width: 50px;
+    margin:0px;
     padding: 0px 0px;
     border: 1px solid rgb(245, 93, 38);
     border-radius: 50px;
@@ -81,7 +81,7 @@ html{
     padding: 3px 200px;
     justify-content: center;
     align-items: center;
-    height: 530px;
+    height: 630px;
 
 
 }
@@ -101,16 +101,17 @@ html{
 }
 
 #home h1{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arisans-serif;
     color: white;
     text-align: center;
+    justify-content: center;
    
 }
 #home p{
     color: white;
     text-align: center;
     font-size: 1.5rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: cursive;
 }
 
 
@@ -137,7 +138,7 @@ html{
     display: block;
 }
 #services .box p{
-    
+    font-family: cursive;
 }
 
 /* clients  */
@@ -166,21 +167,38 @@ html{
  #client img{
     height: 104px;
  }
- /* contact  */
- #contact{
-    position: relative;
+ /* about */
+ #about{
+    display: flex;
+    border: 2px solid tomato;
+    border-radius: 10px;
+    justify-content: center;
+margin: 10px 15px;
+padding: 20px 40px;
  }
  #contact::before{
     content: "";
     position: absolute;
-    background: url('../img/contact-us-jpg.jpg')no-repeat center center/cover;
+    background:url('../img/contact-us-jpg.jpg');
     width: 100%;
-    height: 100%;
+    height:100%;
+    top: 0px;
+    left: 0px; 
+    width: 100%;
+   
     z-index: -1;
     opacity: 0.7;
-    
-
 }
+ #about p{
+    font-size: large;
+    font-family: cursive;
+
+ }
+ /* contact  */
+ #contact{
+    position: relative;
+ }
+  
 #contact-box{
     display: flex;
     justify-content: center;
@@ -225,16 +243,16 @@ html{
 .btn{
     padding: 6px 20px;
     border: 2px solid white;
-    background-color: brown;
-    margin: 17px;
+    background-color: rgb(123, 85, 85);
+    margin: 20px;
     border-radius: 10px;
     font-size: 1.1rem;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     cursor: pointer;
 }
 .btn:hover{
     cursor: pointer;
     color: aliceblue;
-    background-color:rgb(89, 24, 14);
+    background-color:rgb(35, 33, 32);
 }
